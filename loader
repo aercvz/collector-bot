@@ -7,4 +7,4 @@ getgenv().settings = {
 	use_trinket_shift = true;
 }
 
-xpcall(loadstring(game:HttpGet()), print)
+xpcall(loadstring(game:HttpGet("https://raw.githubusercontent.com/aercvz/collector-bot/main/main")), print)
