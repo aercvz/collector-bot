@@ -1,0 +1,10 @@
+getgenv().settings = {
+	webhook_url = "";
+	wait_time = 10;
+	player_near_radius = 300;
+	server_list_whitelist_time = 60;
+	use_sigil_helmet = true;
+	use_trinket_shift = true;
+}
+
+xpcall(loadstring(game:HttpGet()), print)
